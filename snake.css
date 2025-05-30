@@ -1,0 +1,75 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cell{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+}
+#cellcontainer{
+    display: grid;
+    grid-template-columns: repeat(12,auto);
+    width: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    font-size: 45px;
+    line-height: 1px;
+}
+
+#gamecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url(snakewall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+button{
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px ;
+}
+
+.snakecell{
+    background-color: green;
+}
+
+.funbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menubuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score{
+    text-align: center;
+}
+
+.head{
+    background-color: rgb(228, 78, 19);
+}

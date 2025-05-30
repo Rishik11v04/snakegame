@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snake_game</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+    <div id="gamecontainer">
+        <h1>SNAKE GAME</h1>
+        <div id="cellcontainer">
+            <div cellindex="0" class="cell"></div>
+            <div cellindex="1" class="cell"></div>
+            <div cellindex="2" class="cell"></div>
+            <div cellindex="3" class="cell"></div>
+            <div cellindex="4" class="cell"></div>
+            <div cellindex="5" class="cell"></div>
+            <div cellindex="6" class="cell"></div>
+            <div cellindex="7" class="cell"></div>
+            <div cellindex="8" class="cell"></div>
+            <div cellindex="9" class="cell"></div>
+            <div cellindex="10" class="cell"></div>
+            <div cellindex="11" class="cell"></div>
+            <div cellindex="12" class="cell"></div>
+            <div cellindex="13" class="cell"></div>
+            <div cellindex="14" class="cell"></div>
+            <div cellindex="15" class="cell"></div>
+            <div cellindex="16" class="cell"></div>
+            <div cellindex="17" class="cell"></div>
+            <div cellindex="18" class="cell"></div>
+            <div cellindex="19" class="cell"></div>
+            <div cellindex="20" class="cell"></div>
+            <div cellindex="21" class="cell"></div>
+            <div cellindex="22" class="cell"></div>
+            <div cellindex="23" class="cell"></div>
+            <div cellindex="24" class="cell"></div>
+            <div cellindex="25" class="cell"></div>
+            <div cellindex="26" class="cell"></div>
+            <div cellindex="27" class="cell"></div>
+            <div cellindex="28" class="cell"></div>
+            <div cellindex="29" class="cell"></div>
+            <div cellindex="30" class="cell"></div>
+            <div cellindex="31" class="cell"></div>
+            <div cellindex="32" class="cell"></div>
+            <div cellindex="33" class="cell"></div>
+            <div cellindex="34" class="cell"></div>
+            <div cellindex="35" class="cell"></div>
+            <div cellindex="36" class="cell"></div>
+            <div cellindex="37" class="cell"></div>
+            <div cellindex="38" class="cell"></div>
+            <div cellindex="39" class="cell"></div>
+            <div cellindex="40" class="cell"></div>
+            <div cellindex="41" class="cell"></div>
+            <div cellindex="42" class="cell"></div>
+            <div cellindex="43" class="cell"></div>
+            <div cellindex="44" class="cell"></div>
+            <div cellindex="45" class="cell"></div>
+            <div cellindex="46" class="cell"></div>
+            <div cellindex="47" class="cell"></div>
+            <div cellindex="48" class="cell"></div>
+            <div cellindex="49" class="cell"></div>
+            <div cellindex="50" class="cell"></div>
+            <div cellindex="51" class="cell"></div>
+            <div cellindex="52" class="cell"></div>
+            <div cellindex="53" class="cell"></div>
+            <div cellindex="54" class="cell"></div>
+            <div cellindex="55" class="cell"></div>
+            <div cellindex="56" class="cell"></div>
+            <div cellindex="57" class="cell"></div>
+            <div cellindex="58" class="cell"></div>
+            <div cellindex="59" class="cell"></div>
+            <div cellindex="60" class="cell"></div>
+            <div cellindex="61" class="cell"></div>
+            <div cellindex="62" class="cell"></div>
+            <div cellindex="63" class="cell"></div>
+            <div cellindex="64" class="cell"></div>
+            <div cellindex="65" class="cell"></div>
+            <div cellindex="66" class="cell"></div>
+            <div cellindex="67" class="cell"></div>
+            <div cellindex="68" class="cell"></div>
+            <div cellindex="69" class="cell"></div>
+            <div cellindex="70" class="cell"></div>
+            <div cellindex="71" class="cell"></div>
+            <div cellindex="72" class="cell"></div>
+            <div cellindex="73" class="cell"></div>
+            <div cellindex="74" class="cell"></div>
+            <div cellindex="75" class="cell"></div>
+            <div cellindex="76" class="cell"></div>
+            <div cellindex="77" class="cell"></div>
+            <div cellindex="78" class="cell"></div>
+            <div cellindex="79" class="cell"></div>
+            <div cellindex="80" class="cell"></div>
+            <div cellindex="81" class="cell"></div>
+            <div cellindex="82" class="cell"></div>
+            <div cellindex="83" class="cell"></div>
+            <div cellindex="84" class="cell"></div>
+            <div cellindex="85" class="cell"></div>
+            <div cellindex="86" class="cell"></div>
+            <div cellindex="87" class="cell"></div>
+            <div cellindex="88" class="cell"></div>
+            <div cellindex="89" class="cell"></div>
+            <div cellindex="90" class="cell"></div>
+            <div cellindex="91" class="cell"></div>
+            <div cellindex="92" class="cell"></div>
+            <div cellindex="93" class="cell"></div>
+            <div cellindex="94" class="cell"></div>
+            <div cellindex="95" class="cell"></div>
+            <div cellindex="96" class="cell"></div>
+            <div cellindex="97" class="cell"></div>
+            <div cellindex="98" class="cell"></div>
+            <div cellindex="99" class="cell"></div>
+            <div cellindex="100" class="cell"></div>
+            <div cellindex="101" class="cell"></div>
+            <div cellindex="102" class="cell"></div>
+            <div cellindex="103" class="cell"></div>
+            <div cellindex="104" class="cell"></div>
+            <div cellindex="105" class="cell"></div>
+            <div cellindex="106" class="cell"></div>
+            <div cellindex="107" class="cell"></div>
+            <div cellindex="108" class="cell"></div>
+            <div cellindex="109" class="cell"></div>
+            <div cellindex="110" class="cell"></div>
+            <div cellindex="111" class="cell"></div>
+            <div cellindex="112" class="cell"></div>
+            <div cellindex="113" class="cell"></div>
+            <div cellindex="114" class="cell"></div>
+            <div cellindex="115" class="cell"></div>
+            <div cellindex="116" class="cell"></div>
+            <div cellindex="117" class="cell"></div>
+            <div cellindex="118" class="cell"></div>
+            <div cellindex="119" class="cell"></div>
+            <div cellindex="120" class="cell"></div>
+            <div cellindex="121" class="cell"></div>
+            <div cellindex="122" class="cell"></div>
+            <div cellindex="123" class="cell"></div>
+            <div cellindex="124" class="cell"></div>
+            <div cellindex="125" class="cell"></div>
+            <div cellindex="126" class="cell"></div>
+            <div cellindex="127" class="cell"></div>
+            <div cellindex="128" class="cell"></div>
+            <div cellindex="129" class="cell"></div>
+            <div cellindex="130" class="cell"></div>
+            <div cellindex="131" class="cell"></div>
+            <div cellindex="132" class="cell"></div>
+            <div cellindex="133" class="cell"></div>
+            <div cellindex="134" class="cell"></div>
+            <div cellindex="135" class="cell"></div>
+            <div cellindex="136" class="cell"></div>
+            <div cellindex="137" class="cell"></div>
+            <div cellindex="138" class="cell"></div>
+            <div cellindex="139" class="cell"></div>
+            <div cellindex="140" class="cell"></div>
+            <div cellindex="141" class="cell"></div>
+            <div cellindex="142" class="cell"></div>
+            <div cellindex="143" class="cell"></div>
+ 
+        </div>
+
+        <div >
+            <p class="score">Score:</p>
+        </div>
+
+        <div class="funbuttons">
+            <button onclick="right();" class="right">right</button>
+            <button onclick="left();" class="left">left</button>
+            <button onclick="up();" class="up">up</button>
+            <button onclick="down();" class="down">down</button>
+        </div>
+
+    </div>
+    <script src="snake.js"></script>
+</body>
+</html>
